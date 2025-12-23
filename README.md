@@ -15,3 +15,12 @@ Some characters in the source file don't mean anything like whitespace. These ch
 **Parser** takes the flat sequence of tokens and builds a tree structure that mirrors the nested nature of the grammar.
 
 ![img.png](static/img.png)
+
+# Chapter 4
+
+## Scanning
+Scan through list of characters and group them together into the smallest sequences that still represent something. Each of these blobs of character is called a **lexeme**
+
+`var language = "lox"'`
+
+lexemes are: `var`, `language`, `=`, `"lox"`, `;`
